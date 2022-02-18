@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    * {
+        margin: 0%;
+        padding: 0%;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 100%;
+        margin-top: 50px;
+        flex-wrap: wrap;
+    }
+
+    .container .first {
+        position: relative;
+        width: 200px;
+        height: 300px;
+        border: 2px solid black;
+        margin: 2px;
+        padding: 10px;
+        border-radius: 15px;
+    }
+
+    img:hover {
+        box-shadow: 0 0 10px;
+        justify-content: center;
+        
+    }
+    img.details:hover::after{
+    display: block;
+    }
+
+    .container .first img {
+        object-fit: contain;
+        width: 15vw;
+        height: 160px;
+        position: relative;
+
+    }
+
+    p {
+        margin-right: 35px;
+        font-size: larger;
+        font-weight: 100;
+        padding: 2px;
+    }
+   
+    h1 {
+        margin-right: 95px;
+        font-size: 18px;
+        padding: 3px;
+    }
+    
+    button {
+        background-color: goldenrod;
+        height: 40px;
+        border-radius: 20px;
+        width: inherit;
+        font-size: 18px;
+    }
+   
+    .button {
+        background-image: url(https://cdn-icons-png.flaticon.com/512/34/34627.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+</style>
+
+<body>
+    <div class="container">
+        <div class="first">
+            <img src="tea.jpg" width="100px" height="100px">
+            <p>Darjeeling first Flush Tea</p>
+            <h1>100gms</h1>
+            <h1>Rs.455/-</h1>
+            <button class="button">Add to chart</button>
+            
+        </div>
+        <div class="first">
+            <img src="tea.jpg" width="100px" height="100px" alt="">
+            <p>Darjeeling Second Flush Tea</p>
+            <h1>100gms</h1>
+            <h1>Rs.350/-</h1>
+            <button class="button">Add to chart</button>
+        </div>
+        <div class="first">
+            <img src="tea.jpg" width="100px" height="100px" alt="">
+            <p>Darjeeling Aromatic Leaf Tea</p>
+            <h1>250gms</h1>
+            <h1>Rs.260/-</h1>
+            <button class="button">Add to chart</button>
+        </div>
+        <div class="first">
+            <img src="tea.jpg" width="100px" height="100px" alt="">
+            <p>Assam Premium CTC</p>
+            <h1>500gms</h1>
+            <h1>Rs.400/-</h1>
+            <button class="button">Add to chart</button>
+        </div>
+        <div class="first">
+            <img src="tea.jpg" width="100px" height="100px" alt="">
+            <p>Assam Premium CTC</p>
+            <h1>500gms</h1>
+            <h1>Rs.220/-</h1>
+            <button class="button">Add to chart></button>
+        </div>
+        <div class="first">
+            <img src="tea.jpg" width="100px" height="100px" alt="">
+            <p>Darjeeling first Flush Tea</p>
+            <h1>100gms</h1>
+            <h1>Rs.455/-</h1>
+            <button class="button">Add to chart</button>
+        </div>
+        <div class="first">
+            <img src="tea.jpg" width="100px" height="100px" alt="">
+            <p>Darjeeling first Flush Tea</p>
+            <h1>200gms</h1>
+            <h1>Rs.655/-</h1>
+            <button class="button">Add to chart</button>
+        </div>
+    </div>
+</body>
+
+</html>
